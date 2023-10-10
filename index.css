@@ -40,8 +40,13 @@ p, li{
   font-family: "Montserrat"
 }
 
-.nav-link{
+.nav-link .resume-link{
   font-size: 25px;
+}
+
+.resume-link{
+  padding: 8px;
+  color: #00000080;
 }
 
 p {
@@ -322,6 +327,15 @@ margin-right: 3px;
   margin-bottom: 5px;
  }
 
+ .navbar-nav{
+display: flex;
+justify-content: space-between;
+ }
+
+ .navbar-nav li{
+  padding: 5px;
+ }
+
  .nav-item {
   background-color: #fff; /* Set the initial background color */
   transition: background-color 0.41s ease; /* Add a transition for background color changes */
@@ -333,7 +347,36 @@ margin-right: 3px;
   cursor: pointer;
 }
  
-.material-symbols-outlined{
-  padding-top: 10px;
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+footer .foot{
+  background-color: #222222;
+  height: 110px;;
+  color: #fff;
+  font-weight: 400;
+}
+
+.foot hr{
+  height: 0.5px;
+  background-color: wheat;
+  margin-inline: 300px;
+  
+}
+
+.foot p, h6{
+  text-align: center;
+  color: #fff;
+}
+
+footer .foot{
+  padding: 0;
+  margin: 0;
 }
 
